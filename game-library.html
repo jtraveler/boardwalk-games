@@ -73,6 +73,9 @@
               <a class="nav-link" href="index.html#services">Services</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="index.html#events">Events</a>
+            </li>
+            <li class="nav-item">
               <a
                 class="nav-link active"
                 aria-current="page"
@@ -341,6 +344,86 @@
                 <p><em>Ages:</em> 8+</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reserve-game" class="container section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Reserve a Game</h2>
+          </div>
+          <div class="col-12">
+            <p>
+              Reserve a board game for your next visit to Boardwalk Games. Pick
+              your challenge, and let the adventure begin! Fill out your details
+              and preferred game below, and we'll have it set aside for you when
+              you arrive.
+            </p>
+          </div>
+          <div class="col-12">
+            <form action="success.html" method="GET">
+              <div class="row">
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                  />
+                </div>
+
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    type="number"
+                    required
+                  />
+                </div>
+
+                <div class="col-12 col-lg-4 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </div>
+
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="event-type" class="form-label"
+                    >Select a game</label
+                  >
+                  <select
+                    id="event-type"
+                    class="form-select"
+                    name="event-type"
+                    required`
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="regular-play">Galaxy Pioneers</option>
+                    <option value="dnd">Dungeons & Dragons</option>
+                    <option value="retro-night">Retro Game Night</option>
+                    <option value="tournament">Tournament</option>
+                    <option value="kids-party">Kids party</option>
+                  </select>
+                </div>
+                <div class="col-12 col-lg-6 mb-3">Hey</div>
+              </div>
+
+              <div class="d-flex">
+                <button type="submit" class="btn custom-button-outline ms-auto">
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>

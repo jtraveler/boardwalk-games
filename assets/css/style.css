@@ -40,6 +40,7 @@ h2 {
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding: 0 20px;
 }
 
 /* Buttons */
@@ -96,6 +97,14 @@ h2 {
 
 #services .card {
   margin-bottom: 1.5rem;
+}
+
+#events .discount-info {
+  background-color: var(--highlight-color);
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  width: max-content;
 }
 
 /* Game library cards */
