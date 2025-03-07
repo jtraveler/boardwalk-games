@@ -16,6 +16,8 @@
 body {
   font-family: var(--primary-font);
   padding-top: 60px; /* Added this padding because sticky nav covers everything */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1,
@@ -39,9 +41,7 @@ h2 {
 }
 
 .section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 0 20px;
+  padding-top: 4rem;
 }
 
 /* Buttons */
